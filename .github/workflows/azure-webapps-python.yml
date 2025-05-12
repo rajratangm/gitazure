@@ -82,5 +82,5 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ one }}
+          app-name: ${{ env.one }}
           publish-profile: ${{2fa62969-0755-4729-8e18-9b83a5498845 }}
